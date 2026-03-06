@@ -1,0 +1,51 @@
+[
+  {
+    "Language": "en",
+    "Title": "Professional Tour Services",
+    "Description": "High-quality tour services designed to meet all traveler needs.",
+    "ServiceCoreId": 1
+  },
+  {
+    "Language": "ar",
+    "Title": "خدمات سياحية احترافية",
+    "Description": "خدمات سياحية عالية الجودة مصممة لتلبية جميع احتياجات المسافرين.",
+    "ServiceCoreId": 1
+  },
+  {
+    "Language": "de",
+    "Title": "Professionelle Tourismusdienstleistungen",
+    "Description": "Hochwertige Tourismusdienstleistungen für alle Bedürfnisse von Reisenden.",
+    "ServiceCoreId": 1
+  },
+  {
+    "Language": "hl",
+    "Title": "Professionele Reisdiensten",
+    "Description": "Hoogwaardige reisdiensten ontworpen voor alle behoeften van reizigers.",
+    "ServiceCoreId": 1
+  },
+
+  {
+    "Language": "en",
+    "Title": "Customer Support",
+    "Description": "Dedicated support team available 24/7 to assist you.",
+    "ServiceCoreId": 2
+  },
+  {
+    "Language": "ar",
+    "Title": "دعم العملاء",
+    "Description": "فريق دعم مخصص متاح على مدار الساعة لمساعدتك.",
+    "ServiceCoreId": 2
+  },
+  {
+    "Language": "de",
+    "Title": "Kundensupport",
+    "Description": "Ein engagiertes Support-Team steht Ihnen rund um die Uhr zur Verfügung.",
+    "ServiceCoreId": 2
+  },
+  {
+    "Language": "hl",
+    "Title": "Klantenservice",
+    "Description": "Een toegewijd supportteam dat 24/7 beschikbaar is om u te helpen.",
+    "ServiceCoreId": 2
+  }
+]

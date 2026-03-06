@@ -1,0 +1,26 @@
+[
+  {
+    "Language": "en",
+    "Title": "Contact Us",
+    "Description": "Feel free to contact us for any questions, bookings, or support.",
+    "ContactId": 1
+  },
+  {
+    "Language": "ar",
+    "Title": "اتصل بنا",
+    "Description": "لا تتردد في التواصل معنا لأي استفسارات أو حجوزات أو دعم.",
+    "ContactId": 1
+  },
+  {
+    "Language": "de",
+    "Title": "Kontaktieren Sie Uns",
+    "Description": "Kontaktieren Sie uns gerne bei Fragen, Buchungen oder Support.",
+    "ContactId": 1
+  },
+  {
+    "Language": "hl",
+    "Title": "Neem Contact Op",
+    "Description": "Neem gerust contact met ons op voor vragen, boekingen of ondersteuning.",
+    "ContactId": 1
+  }
+]

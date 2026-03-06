@@ -1,0 +1,13 @@
+[
+  {
+    "UserName": "admin",
+    "NormalizedUserName": "ADMIN",
+    "Email": "admin@yourcompany.com",
+    "NormalizedEmail": "ADMIN@YOURCOMPANY.COM",
+    "EmailConfirmed": true,
+    "FullName": "System Administrator",
+    "IsActive": true,
+    "SecurityStamp": "SECURITY_STAMP_1",
+    "ConcurrencyStamp": "CONCURRENCY_STAMP_1"
+  }
+]

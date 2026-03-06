@@ -1,0 +1,16 @@
+[
+  {
+   
+    "ImageCover": "service-tours.jpg",
+    "ReferneceName": "tour-services",
+    "MetaDescription": "Professional tour services across Egypt",
+    "MetaKeyWords": "services, tours, travel"
+  },
+  {
+    
+    "ImageCover": "service-support.jpg",
+    "ReferneceName": "customer-support",
+    "MetaDescription": "24/7 customer support for all travelers",
+    "MetaKeyWords": "support, help, service"
+  }
+]

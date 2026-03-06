@@ -1,0 +1,83 @@
+[
+  {
+    "Language": "en",
+    "JobTitle": "Account Manager",
+    "EmploymentType": "Full Time",
+    "SalaryFrom": 1000,
+    "SalaryTo": 1500,
+    "SalaryPeriod": "Per Month",
+    "Description": "Responsible for managing client accounts and maintaining long-term relationships.",
+    "CareerId": 1
+  },
+  {
+    "Language": "ar",
+    "JobTitle": "مدير حسابات",
+    "EmploymentType": "دوام كامل",
+    "SalaryFrom": 1000,
+    "SalaryTo": 1500,
+    "SalaryPeriod": "شهري",
+    "Description": "مسؤول عن إدارة حسابات العملاء والحفاظ على علاقات طويلة الأمد.",
+    "CareerId": 1
+  },
+  {
+    "Language": "de",
+    "JobTitle": "Account Manager",
+    "EmploymentType": "Vollzeit",
+    "SalaryFrom": 1000,
+    "SalaryTo": 1500,
+    "SalaryPeriod": "Pro Monat",
+    "Description": "Verantwortlich für die Betreuung von Kundenkonten und langfristige Kundenbeziehungen.",
+    "CareerId": 1
+  },
+  {
+    "Language": "hl",
+    "JobTitle": "Accountmanager",
+    "EmploymentType": "Fulltime",
+    "SalaryFrom": 1000,
+    "SalaryTo": 1500,
+    "SalaryPeriod": "Per Maand",
+    "Description": "Verantwoordelijk voor het beheren van klantaccounts en langdurige relaties.",
+    "CareerId": 1
+  },
+
+  {
+    "Language": "en",
+    "JobTitle": "Tour Guide",
+    "EmploymentType": "Full Time",
+    "SalaryFrom": 800,
+    "SalaryTo": 1200,
+    "SalaryPeriod": "Per Month",
+    "Description": "Guides tourists and provides detailed information about destinations.",
+    "CareerId": 2
+  },
+  {
+    "Language": "ar",
+    "JobTitle": "مرشد سياحي",
+    "EmploymentType": "دوام كامل",
+    "SalaryFrom": 800,
+    "SalaryTo": 1200,
+    "SalaryPeriod": "شهري",
+    "Description": "إرشاد السياح وتقديم معلومات تفصيلية عن الوجهات السياحية.",
+    "CareerId": 2
+  },
+  {
+    "Language": "de",
+    "JobTitle": "Reiseleiter",
+    "EmploymentType": "Vollzeit",
+    "SalaryFrom": 800,
+    "SalaryTo": 1200,
+    "SalaryPeriod": "Pro Monat",
+    "Description": "Führt Touristen und gibt detaillierte Informationen über Reiseziele.",
+    "CareerId": 2
+  },
+  {
+    "Language": "hl",
+    "JobTitle": "Reisgids",
+    "EmploymentType": "Fulltime",
+    "SalaryFrom": 800,
+    "SalaryTo": 1200,
+    "SalaryPeriod": "Per Maand",
+    "Description": "Begeleidt toeristen en geeft gedetailleerde informatie over bestemmingen.",
+    "CareerId": 2
+  }
+]

@@ -1,0 +1,16 @@
+[
+  {
+    "FullName": "John Doe",
+    "EmailAddress": "john.doe@example.com",
+    "Subject": "Tour Booking Inquiry",
+    "Message": "I would like to know more details about your safari tours.",
+    "CreatedAt": "2025-01-05T10:30:00Z"
+  },
+  {
+    "FullName": "محمد علي",
+    "EmailAddress": "mohamed.ali@example.com",
+    "Subject": "استفسار عن الأسعار",
+    "Message": "من فضلكم عاوز أعرف تفاصيل الأسعار المتاحة.",
+    "CreatedAt": "2025-01-06T12:15:00Z"
+  }
+]

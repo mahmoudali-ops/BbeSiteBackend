@@ -1,0 +1,26 @@
+[
+  {
+    "Language": "en",
+    "Title": "Discover Egypt With Us",
+    "Description": "Enjoy unforgettable tours and unique travel experiences across Egypt.",
+    "HomeId": 1
+  },
+  {
+    "Language": "ar",
+    "Title": "اكتشف مصر معنا",
+    "Description": "استمتع برحلات لا تُنسى وتجارب سفر فريدة في جميع أنحاء مصر.",
+    "HomeId": 1
+  },
+  {
+    "Language": "de",
+    "Title": "Entdecken Sie Ägypten Mit Uns",
+    "Description": "Genießen Sie unvergessliche Touren und einzigartige Reiseerlebnisse in Ägypten.",
+    "HomeId": 1
+  },
+  {
+    "Language": "hl",
+    "Title": "Ontdek Egypte Met Ons",
+    "Description": "Geniet van onvergetelijke tours en unieke reiservaringen door heel Egypte.",
+    "HomeId": 1
+  }
+]

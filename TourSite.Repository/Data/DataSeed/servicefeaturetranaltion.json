@@ -1,0 +1,67 @@
+[
+  {
+    "Language": "en",
+    "Title": "Expert Guides",
+    "Description": "Experienced and certified tour guides.",
+    "IncludeFirst": "Licensed professionals",
+    "IncludeSecond": "Multilingual support",
+    "ServiceFeaturesId": 1
+  },
+  {
+    "Language": "ar",
+    "Title": "مرشدون خبراء",
+    "Description": "مرشدون سياحيون معتمدون وذوو خبرة.",
+    "IncludeFirst": "مرشدون مرخصون",
+    "IncludeSecond": "دعم متعدد اللغات",
+    "ServiceFeaturesId": 1
+  },
+  {
+    "Language": "de",
+    "Title": "Erfahrene Reiseleiter",
+    "Description": "Erfahrene und zertifizierte Reiseleiter.",
+    "IncludeFirst": "Lizenzierte Fachkräfte",
+    "IncludeSecond": "Mehrsprachiger Support",
+    "ServiceFeaturesId": 1
+  },
+  {
+    "Language": "hl",
+    "Title": "Deskundige Gidsen",
+    "Description": "Ervaren en gecertificeerde reisgidsen.",
+    "IncludeFirst": "Gelicentieerde professionals",
+    "IncludeSecond": "Meertalige ondersteuning",
+    "ServiceFeaturesId": 1
+  },
+
+  {
+    "Language": "en",
+    "Title": "Flexible Booking",
+    "Description": "Easy and flexible booking options.",
+    "IncludeFirst": "Online booking",
+    "IncludeSecond": "Free cancellation",
+    "ServiceFeaturesId": 2
+  },
+  {
+    "Language": "ar",
+    "Title": "حجز مرن",
+    "Description": "خيارات حجز سهلة ومرنة.",
+    "IncludeFirst": "حجز أونلاين",
+    "IncludeSecond": "إلغاء مجاني",
+    "ServiceFeaturesId": 2
+  },
+  {
+    "Language": "de",
+    "Title": "Flexible Buchung",
+    "Description": "Einfache und flexible Buchungsoptionen.",
+    "IncludeFirst": "Online-Buchung",
+    "IncludeSecond": "Kostenlose Stornierung",
+    "ServiceFeaturesId": 2
+  },
+  {
+    "Language": "hl",
+    "Title": "Flexibele Boeking",
+    "Description": "Eenvoudige en flexibele boekingsopties.",
+    "IncludeFirst": "Online boeken",
+    "IncludeSecond": "Gratis annulering",
+    "ServiceFeaturesId": 2
+  }
+]

@@ -1,0 +1,99 @@
+[
+  {
+    "Language": "en",
+    "Discount": 10,
+    "Title": "Basic Package",
+    "Description": "Ideal package for individuals and small groups.",
+    "PriceService": 299,
+    "IncludeFirst": "Hotel pickup",
+    "IncludeSecond": "Professional guide",
+    "IncludeThird": "Snacks",
+    "IncludeForth": "Insurance",
+    "PriceId": 1
+  },
+  {
+    "Language": "ar",
+    "Discount": 10,
+    "Title": "الباقة الأساسية",
+    "Description": "باقة مثالية للأفراد والمجموعات الصغيرة.",
+    "PriceService": 299,
+    "IncludeFirst": "الاستقبال من الفندق",
+    "IncludeSecond": "مرشد محترف",
+    "IncludeThird": "وجبات خفيفة",
+    "IncludeForth": "تأمين",
+    "PriceId": 1
+  },
+  {
+    "Language": "de",
+    "Discount": 10,
+    "Title": "Basispaket",
+    "Description": "Ideales Paket für Einzelpersonen und kleine Gruppen.",
+    "PriceService": 299,
+    "IncludeFirst": "Hotelabholung",
+    "IncludeSecond": "Professioneller Guide",
+    "IncludeThird": "Snacks",
+    "IncludeForth": "Versicherung",
+    "PriceId": 1
+  },
+  {
+    "Language": "hl",
+    "Discount": 10,
+    "Title": "Basispakket",
+    "Description": "Ideaal pakket voor individuen en kleine groepen.",
+    "PriceService": 299,
+    "IncludeFirst": "Ophalen bij hotel",
+    "IncludeSecond": "Professionele gids",
+    "IncludeThird": "Snacks",
+    "IncludeForth": "Verzekering",
+    "PriceId": 1
+  },
+
+  {
+    "Language": "en",
+    "Discount": 15,
+    "Title": "Premium Package",
+    "Description": "Best choice for luxury and comfort lovers.",
+    "PriceService": 499,
+    "IncludeFirst": "Private transfer",
+    "IncludeSecond": "Luxury vehicle",
+    "IncludeThird": "Meals included",
+    "IncludeForth": "Priority support",
+    "PriceId": 2
+  },
+  {
+    "Language": "ar",
+    "Discount": 15,
+    "Title": "الباقة المميزة",
+    "Description": "أفضل اختيار لمحبي الفخامة والراحة.",
+    "PriceService": 499,
+    "IncludeFirst": "انتقالات خاصة",
+    "IncludeSecond": "سيارة فاخرة",
+    "IncludeThird": "وجبات مشمولة",
+    "IncludeForth": "دعم مميز",
+    "PriceId": 2
+  },
+  {
+    "Language": "de",
+    "Discount": 15,
+    "Title": "Premium-Paket",
+    "Description": "Beste Wahl für Luxus- und Komfortliebhaber.",
+    "PriceService": 499,
+    "IncludeFirst": "Privater Transfer",
+    "IncludeSecond": "Luxusfahrzeug",
+    "IncludeThird": "Mahlzeiten inklusive",
+    "IncludeForth": "Priorisierter Support",
+    "PriceId": 2
+  },
+  {
+    "Language": "hl",
+    "Discount": 15,
+    "Title": "Premium Pakket",
+    "Description": "Beste keuze voor liefhebbers van luxe en comfort.",
+    "PriceService": 499,
+    "IncludeFirst": "Privévervoer",
+    "IncludeSecond": "Luxe voertuig",
+    "IncludeThird": "Maaltijden inbegrepen",
+    "IncludeForth": "Prioriteitsondersteuning",
+    "PriceId": 2
+  }
+]

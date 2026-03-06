@@ -1,0 +1,16 @@
+[
+  {
+   
+    "ImageCover": "faqs-cover.jpg",
+    "ReferneceName": "faqs",
+    "MetaDescription": "Frequently asked questions about our tours and services",
+    "MetaKeyWords": "faqs, questions, help"
+  },
+  {
+    
+    "ImageCover": "faqs-booking.jpg",
+    "ReferneceName": "booking-faqs",
+    "MetaDescription": "Booking and payment related questions",
+    "MetaKeyWords": "booking, payment, faqs"
+  }
+]

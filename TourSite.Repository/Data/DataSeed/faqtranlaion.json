@@ -1,0 +1,51 @@
+[
+  {
+    "Language": "en",
+    "Question": "How can I book a tour?",
+    "Answer": "You can book a tour directly through our website or contact our support team.",
+    "FAQsId": 1
+  },
+  {
+    "Language": "ar",
+    "Question": "كيف يمكنني حجز رحلة؟",
+    "Answer": "يمكنك حجز الرحلة مباشرة من خلال موقعنا أو التواصل مع فريق الدعم.",
+    "FAQsId": 1
+  },
+  {
+    "Language": "de",
+    "Question": "Wie kann ich eine Tour buchen?",
+    "Answer": "Sie können eine Tour direkt über unsere Website buchen oder unser Support-Team kontaktieren.",
+    "FAQsId": 1
+  },
+  {
+    "Language": "hl",
+    "Question": "Hoe kan ik een tour boeken?",
+    "Answer": "U kunt een tour rechtstreeks via onze website boeken of contact opnemen met ons supportteam.",
+    "FAQsId": 1
+  },
+
+  {
+    "Language": "en",
+    "Question": "What payment methods are available?",
+    "Answer": "We accept credit cards, cash, and online payments.",
+    "FAQsId": 2
+  },
+  {
+    "Language": "ar",
+    "Question": "ما هي طرق الدفع المتاحة؟",
+    "Answer": "نقبل بطاقات الائتمان والدفع النقدي والدفع الإلكتروني.",
+    "FAQsId": 2
+  },
+  {
+    "Language": "de",
+    "Question": "Welche Zahlungsmethoden sind verfügbar?",
+    "Answer": "Wir akzeptieren Kreditkarten, Barzahlung und Online-Zahlungen.",
+    "FAQsId": 2
+  },
+  {
+    "Language": "hl",
+    "Question": "Welke betaalmethoden zijn beschikbaar?",
+    "Answer": "Wij accepteren creditcards, contant geld en online betalingen.",
+    "FAQsId": 2
+  }
+]

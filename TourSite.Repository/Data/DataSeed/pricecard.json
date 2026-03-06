@@ -1,0 +1,16 @@
+[
+  {
+   
+    "ImageCover": "price-basic.jpg",
+    "ReferneceName": "basic-package",
+    "MetaDescription": "Affordable pricing package for basic services",
+    "MetaKeyWords": "price, basic, package"
+  },
+  {
+ 
+    "ImageCover": "price-premium.jpg",
+    "ReferneceName": "premium-package",
+    "MetaDescription": "Premium pricing package with extended features",
+    "MetaKeyWords": "price, premium, package"
+  }
+]

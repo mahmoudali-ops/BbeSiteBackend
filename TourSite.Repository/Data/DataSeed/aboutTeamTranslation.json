@@ -1,0 +1,59 @@
+[
+  {
+    "Language": "en",
+    "Name": "Ahmed Hassan",
+    "Position": "CEO",
+    "Description": "Founder and CEO with more than 10 years of experience in tourism.",
+    "AboutTeamId": 1
+  },
+  {
+    "Language": "ar",
+    "Name": "أحمد حسن",
+    "Position": "المدير التنفيذي",
+    "Description": "مؤسس الشركة ويتمتع بخبرة أكثر من 10 سنوات في مجال السياحة.",
+    "AboutTeamId": 1
+  },
+  {
+    "Language": "de",
+    "Name": "Ahmed Hassan",
+    "Position": "Geschäftsführer",
+    "Description": "Gründer und CEO mit über 10 Jahren Erfahrung im Tourismus.",
+    "AboutTeamId": 1
+  },
+  {
+    "Language": "hl",
+    "Name": "Ahmed Hassan",
+    "Position": "CEO",
+    "Description": "Oprichter en CEO met meer dan 10 jaar ervaring in toerisme.",
+    "AboutTeamId": 1
+  },
+
+  {
+    "Language": "en",
+    "Name": "Sara Ali",
+    "Position": "Tour Manager",
+    "Description": "Responsible for planning and managing all tours.",
+    "AboutTeamId": 2
+  },
+  {
+    "Language": "ar",
+    "Name": "سارة علي",
+    "Position": "مديرة الرحلات",
+    "Description": "مسؤولة عن تخطيط وإدارة جميع الرحلات السياحية.",
+    "AboutTeamId": 2
+  },
+  {
+    "Language": "de",
+    "Name": "Sara Ali",
+    "Position": "Tour Managerin",
+    "Description": "Verantwortlich für die Planung und Organisation aller Touren.",
+    "AboutTeamId": 2
+  },
+  {
+    "Language": "hl",
+    "Name": "Sara Ali",
+    "Position": "Tourmanager",
+    "Description": "Verantwoordelijk voor het plannen en beheren van alle tours.",
+    "AboutTeamId": 2
+  }
+]

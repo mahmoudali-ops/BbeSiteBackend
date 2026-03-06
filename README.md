@@ -1,228 +1,232 @@
-🌍 BbeSite — Tourism Backend API
+🚀 BbeSocial Backend API
 
-A scalable backend API for a tourism platform that manages tours, destinations, transfers, hotels, and bookings with multi-language support and modern backend architecture.
+Backend API powering the BbeSocial customer service platform, built with ASP.NET Core (.NET 8) using a clean layered architecture focused on scalability, maintainability, and performance.
 
-The system is designed to support tourism agencies and travel platforms by providing secure APIs, high performance caching, and clean architecture principles.
+The API manages the entire platform including services, pricing cards, multilingual content, authentication, and admin operations.
 
-Built with ASP.NET Core (.NET 8) and Entity Framework Core, the project follows enterprise-level backend patterns such as Repository, Unit of Work, and Specification Pattern.
+🌍 Live Platform
 
-🚀 Tech Stack
-Layer	Technologies
-⚙️ Runtime	.NET 8
-🌐 API	ASP.NET Core Web API, Swagger (Swashbuckle)
-🗄 Database	SQL Server
-📦 ORM	Entity Framework Core 9
-🔐 Authentication	ASP.NET Core Identity + JWT
-🛡 Authorization	Role-based authorization
-🔄 Mapping	AutoMapper
-✔ Validation	Data Annotations / FluentValidation
-⚡ Caching	Redis (StackExchange.Redis)
-📧 Email Service	SMTP (Zoho / other providers)
-🖼 Image Processing	SixLabors.ImageSharp (WebP optimization)
-🏗 Architecture
+🔗 https://www.bbesocial.com
 
-The project follows a Clean Layered Architecture separating responsibilities across four main layers:
+🧩 Architecture Overview
 
-TourSite.APIs
-│
-├── Controllers
-├── Middleware
-└── Configuration
+The backend follows a Clean Layered Architecture to keep responsibilities separated and maintain a scalable codebase.
 
-TourSite.Service
-│
-├── Business Logic
-├── DTOs
-└── Application Services
+API Layer
+   ↓
+Application Layer
+   ↓
+Domain Layer
+   ↓
+Infrastructure Layer
+📂 Layers
+Layer	Responsibility
+API	Controllers, middleware, request handling
+Application	Business logic, DTOs, services, validation
+Domain	Entities, enums, core models
+Infrastructure	EF Core, repositories, database access, external services
+🏗 Core Architecture Patterns
 
-TourSite.Repository
-│
-├── Repositories
-├── Unit Of Work
-└── EF DbContext
+The project uses multiple design patterns to ensure clean and maintainable code:
 
-TourSite.Core
-│
-├── Domain Entities
-├── Interfaces
-└── Specifications
-Design Patterns Used
+✅ Repository Pattern
+Provides abstraction over data access.
 
-📦 Repository Pattern — abstraction over data access
+✅ Unit of Work Pattern
+Ensures transactional consistency across repositories.
 
-🔄 Unit of Work — transaction management
+✅ Specification Pattern
+Handles complex queries in a reusable and clean way.
 
-🔍 Specification Pattern — reusable query logic
+✅ DTO Pattern
+Separates API contracts from domain entities.
 
-🔁 DTO Mapping — AutoMapper for API ↔ Domain
+✅ AutoMapper
+Simplifies mapping between entities and DTOs.
 
-⚙ Middleware Pattern — centralized error handling
+⚙️ Tech Stack
+Category	Technologies
+Runtime	.NET 8
+Framework	ASP.NET Core Web API
+ORM	Entity Framework Core 9
+Database	SQL Server
+Authentication	ASP.NET Core Identity
+Caching	Redis
+Mapping	AutoMapper
+Email	SMTP (Zoho Mail)
+API Docs	Swagger / Swashbuckle
+🔐 Authentication & Security
 
-✨ Core Features
-🧭 Tours Management
+Security is implemented using modern best practices.
 
-Create, update, delete tours
+🔑 Authentication
 
-Category management
+ASP.NET Core Identity
 
-Image upload and optimization
+JWT Authentication
 
-Pagination and filtering
+Tokens stored in HttpOnly Secure Cookies
 
-🌍 Destinations
+🛡 Authorization
 
-Multi-destination support
+Role-based authorization
 
-Destination content management
+Protected admin endpoints
 
-🚐 Transfers
+🔒 Additional Security
 
-Manage transfer services
+Input validation
 
-Transfer booking support
+CORS configuration
 
-🏨 Hotels
+Secure cookie settings
 
-Hotel data and related bookings
+Global exception handling middleware
 
-📅 Booking System
+🌍 Multi-Language System
 
-Reservation workflow
+The platform supports a dynamic multilingual content system.
 
-Booking confirmation
+Supported languages:
 
-Email notifications
+🇬🇧 English
+🇩🇪 German
+🇳🇱 Dutch
+🇸🇦 Arabic (RTL)
 
-🌐 Multi-Language Support
+Implementation
 
-The platform supports content translations, allowing tours, destinations, and other content to be displayed in multiple languages.
-
-This enables the system to serve international tourism platforms.
-
-🔐 Security
-
-The API implements modern security practices:
-
-🔒 JWT Authentication
-
-🍪 HttpOnly Cookies for token storage (reduces XSS risks)
-
-🛡 Role-based Authorization
-
-🌐 CORS protection
-
-✔ Input validation
-
-⚠ Centralized exception middleware
-
-⚡ Performance Features
-
-Redis caching for frequently accessed endpoints
-
-Custom cache attributes to easily cache API responses
-
-Optimized images using WebP format
-
-Efficient database queries using Specification Pattern
-
-🖼 Image Processing
-
-Images uploaded to the platform are automatically:
-
-Resized
-
-Optimized
-
-Converted to WebP
-
-Using:
-
-SixLabors.ImageSharp
-
-This significantly reduces bandwidth and improves loading performance.
-
-📧 Email Notifications
-
-The system supports sending emails such as:
-
-Booking confirmations
-
-Notifications
-
-System messages
-
-Implemented using SMTP providers (e.g. Zoho).
-
-🛠 Getting Started
-Prerequisites
-
-.NET 8 SDK
-
-SQL Server
-
-Redis (optional but recommended)
-
-1️⃣ Clone the Repository
-git clone <repository-url>
-cd BbeSite
-2️⃣ Restore & Build
-dotnet restore
-dotnet build
-3️⃣ Configure Application
-
-Update configuration files:
-
-TourSite.APIs/appsettings.json
-TourSite.APIs/appsettings.Development.json
-
-Required settings:
-
-SQL Server connection string
-
-JWT configuration
-
-Redis connection (optional)
-
-SMTP settings (optional)
+Content entities have related translation tables.
 
 Example:
 
-"ConnectionStrings": {
-  "DefaultConnection": "Server=.;Database=BbeSite;Trusted_Connection=True;"
-}
-4️⃣ Apply Database Migrations
-cd TourSite.APIs
+Service
+ ├── ServiceTranslation
+ │      ├── Title
+ │      ├── Description
+ │      └── LanguageCode
+
+This allows:
+
+✔ dynamic content translation
+✔ language switching
+✔ dashboard-controlled content
+
+🚀 Performance Optimizations
+
+Several optimizations were implemented to ensure high performance.
+
+⚡ Redis caching for frequently requested data
+⚡ Async EF Core queries
+⚡ Server-side pagination
+⚡ Optimized database queries
+⚡ Image compression using WebP
+
+📦 Features
+🧩 Services Management
+
+Dynamic service sections
+
+Multi-language content
+
+Admin-controlled visibility
+
+💰 Pricing Cards
+
+Repeatable dynamic pricing cards
+
+Managed fully from dashboard
+
+🖼 Media Management
+
+Upload and manage images
+
+Logo & branding control
+
+🌐 Dynamic Website Content
+
+Pages content controlled by admin
+
+Dynamic translations
+
+📩 Contact System
+
+SMTP email integration (Zoho)
+
+🗄 Database
+
+The database is managed using Entity Framework Core migrations.
+
+Features:
+
+Code-first approach
+
+Database seeding
+
+Migration versioning
+
+Run migrations:
+
 dotnet ef database update
+📑 API Documentation
 
-If EF tools are not installed:
+Swagger is enabled for easy testing and documentation.
 
-dotnet tool install --global dotnet-ef
-5️⃣ Run the API
-dotnet run --project TourSite.APIs
+/swagger
 
-Swagger UI:
+Provides:
 
-https://localhost:<port>/swagger
-📁 Solution Structure
-BbeSite
-│
-├── TourSite.APIs
-│   ├── Controllers
-│   ├── Middleware
-│   └── Configuration
-│
-├── TourSite.Service
-│   ├── DTOs
-│   ├── Services
-│   └── Business Logic
-│
-├── TourSite.Repository
-│   ├── Repositories
-│   ├── UnitOfWork
-│   └── DbContext
-│
-├── TourSite.Core
-│   ├── Entities
-│   ├── Interfaces
-│   └── Specifications
-│
+✔ endpoint testing
+✔ request/response models
+✔ authentication support
+
+🧠 Middleware & Infrastructure
+
+Custom middleware implemented for:
+
+✔ Global exception handling
+✔ Logging
+✔ Request validation
+✔ Consistent API responses
+
+🔧 Development Setup
+1️⃣ Clone repository
+git clone <repo-url>
+2️⃣ Configure appsettings
+
+Update:
+
+appsettings.json
+
+Example configuration:
+
+Database connection string
+
+Redis
+
+SMTP settings
+
+JWT configuration
+
+3️⃣ Run migrations
+dotnet ef database update
+4️⃣ Run the project
+dotnet run
+📈 Production Ready Features
+
+This API is built with real production deployment in mind:
+
+✔ Clean architecture
+✔ Secure authentication
+✔ Dynamic multilingual system
+✔ Redis caching
+✔ Admin-driven content management
+✔ Optimized database queries
+✔ Exception middleware
+✔ Logging support
+
+👨‍💻 Author
+
+Mahmoud Ali
+
+Software Engineer – Backend / .NET Developer
